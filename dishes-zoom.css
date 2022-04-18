@@ -1,0 +1,71 @@
+        .dishes {
+            display: flex;
+            flex-wrap: wrap;
+            width: auto;
+            height: 280px;
+            background-color: rgb(44, 42, 42);
+        }
+
+        .dbox {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 300px;
+            height: 250px;
+            margin: auto;
+            /* border: 2px solid black; */
+            border-radius: 5px;
+            background-color: rgb(190, 133, 47);
+            background-position: center;
+            background-size: cover;
+            font-size: 40px;
+            transition: all 0.5s ease-in-out;
+        }
+        .dbox p{
+            text-align: end;
+        }
+
+        .dbox:hover {
+            /* transform: translate(50px, 100px); */
+            transform: scale(1.1);
+            /* transform: rotate(451deg); */
+            /* transform: skew(30deg); */
+        }
+
+        #box1 {
+            background-image: url("dishes/hamburger.jpg");
+            background-position: center;
+            background-size: cover; 
+        }
+
+        #box2 {
+            background-image: url("dishes/breakfast.jpg");
+            background-position: center;
+            background-size: cover;
+        }
+
+        #box3 {
+            background-image: url("dishes/drinks.jpg");
+            background-position: center;
+            background-size: cover;
+        }
+
+        #box4 {
+            background-image: url("dishes/table-setting.jpg");
+            background-position: center;
+            background-size: cover;
+        }
+        .dbox p{
+            color: rgb(0, 0, 0);
+            background-color: white;
+            width: 100%;
+            height: 25%;
+            margin-bottom: -200px;
+            text-align: center;
+            border-bottom-right-radius: inherit;
+            border-bottom-left-radius: inherit;
+            /* border-radius: 5px; */
+            justify-content: center;
+            font-size: 30px;
+            box-sizing: border-box;
+        }
